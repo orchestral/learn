@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Getting Started
-categories:
-    - from-scratch
+categories: from-scratch
 ---
 
 Getting started with Orchestra Platform 3 is as much identical to getting started with Orchestra Platform 2. Therefore you need to have some minimum knowledge on [Laravel 5](http://laravel.com), [Composer](https://getcomposer.org) and [Packagist](https://packagist.org).
