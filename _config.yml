@@ -13,6 +13,7 @@ tagline:          'Learning Orchestra Platform'
 description:      'Orchestra Platfrom 3.'
 url:              http://learn.orchestraplatform.com
 baseurl:          /
+excerpt_separator: "<!--more-->"
 
 author:
   name:           'Mark Otto'
