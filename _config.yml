@@ -3,7 +3,8 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        :categories/:title
+paginate_path:    /page/:num
 relative_permalinks: true
 
 # Setup
