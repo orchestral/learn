@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Learn
 tagline:          'Learning Orchestra Platform'
 description:      'Orchestra Platfrom 3.'
-url:              http://hyde.getpoole.com
+url:              http://learn.orchestraplatform.com
 baseurl:          /
 
 author:
