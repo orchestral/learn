@@ -125,7 +125,7 @@ Alternatively as mention before, you can create a provision script to automate t
 ```bash
 #!/usr/bin/env bash
 
-/usr/bin/mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS `patio` DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;"
+/usr/bin/mysql -uroot -proot -e "CREATE DATABASE IF NOT EXISTS patio DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;"
 
 cd /vagrant/
 
