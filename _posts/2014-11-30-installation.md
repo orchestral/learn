@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started
 categories: from-scratch
+
 ---
 
 Getting started with Orchestra Platform 3 is as much identical to getting started with Orchestra Platform 2. Therefore you need to have some minimum knowledge on [Laravel 5](http://laravel.com), [Composer](https://getcomposer.org) and [Packagist](https://packagist.org).
@@ -89,3 +90,5 @@ Laravel development server started on http://localhost:8000
 ### Installation
 
 Now browse to <http://localhost:8000>, you should see the default Laravel 5 welcome page. Now let install Orchestra Platform, to do that simply browse to <http://localhost:8000/admin> and complete the installation process.
+
+**Next:** [Using Vaprobash](/from-scratch/using-vaprobash)
