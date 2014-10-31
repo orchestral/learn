@@ -2,6 +2,7 @@
 layout: post
 title: Using Vaprobash
 categories: from-scratch
+previous_page: from-scratch/installation
 
 ---
 
@@ -84,7 +85,7 @@ Now, it's time to customise the set of packages to be provisioned on the VM. For
 * PHP 5.6
 * MariaDB
 * Redis
-* Beanstalkd 
+* Beanstalkd
 * Supervisord
 * Node.js
 * Composer
@@ -133,7 +134,7 @@ composer install --prefer-dist --dev
 
 ### Running from VM
 
-Once all above has been completed, we can start browsing from VM, to do so just use the server ip followed by `.xip.io` to access the service, in this case it would be <http://192.168.50.10.xip.io>. You can also modify your local machine hosts to create an alias. 
+Once all above has been completed, we can start browsing from VM, to do so just use the server ip followed by `.xip.io` to access the service, in this case it would be <http://192.168.50.10.xip.io>. You can also modify your local machine hosts to create an alias.
 
 ```bash
 $ sudo vim /etc/hosts

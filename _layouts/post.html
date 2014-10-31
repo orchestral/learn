@@ -8,6 +8,21 @@ layout: default
   {{ content }}
 </div>
 
+{% if page.previous_page or page.next_page %}
+<div class="pagination">
+  {% if page.previous_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}{{page.previous_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if page.next_page %}
+    <a class="pagination-item newer" href="{{ site.baseurl }}{{page.next_page}}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
+{% endif %}
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">

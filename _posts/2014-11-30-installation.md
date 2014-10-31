@@ -2,6 +2,7 @@
 layout: post
 title: Getting Started
 categories: from-scratch
+next_page: from-scratch/using-vaprobash
 
 ---
 
@@ -90,5 +91,3 @@ Laravel development server started on http://localhost:8000
 ### Installation
 
 Now browse to <http://localhost:8000>, you should see the default Laravel 5 welcome page. Now let install Orchestra Platform, to do that simply browse to <http://localhost:8000/admin> and complete the installation process.
-
-**Next:** [Using Vaprobash](/from-scratch/using-vaprobash)
