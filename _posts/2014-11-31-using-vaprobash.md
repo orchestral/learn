@@ -150,3 +150,53 @@ Now you should be able to access the application via <http://patio.app>.
 
 ### Setup Environment
 
+Once your environment is ready, let start configuring environment variable for the app. First of all let change the default `production` environment to `local`. To do this you need to create a new `.env` file on the root directory of the project.
+
+```ruby
+APP_ENV=local
+```
+
+You can also convert the database configuration (from previous tutorial) to use environment variables:
+
+```ruby
+APP_ENV=local
+DB.HOST=127.0.0.1
+DB.USERNAME=root
+DB.PASSWORD=root
+DB.DATABASE=patio
+```
+
+Now, let's change `config/database.php`:
+
+```php
+<?php
+
+return [
+
+    // ...
+
+    'connections' => [
+
+        // ...
+
+        'mysql' => [
+            'driver'    => 'mysql',
+            'host'      => getenv('DB.HOST') ?: 'localhost',
+            'database'  => getenv('DB.DATABASE') ?: 'patio',
+            'username'  => getenv('DB.USERNAME') ?: 'root',
+            'password'  => getenv('DB.PASSWORD') ?: 'root',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ],
+
+        // ...
+
+    ],
+
+    // ...
+
+];
+```
+
+> Don't forget to delete the default `config/local/database.php`, you might need to run `vagrant reload`, or restart PHP service on the VM (to flush the OpCache).
