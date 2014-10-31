@@ -4,8 +4,6 @@ title: From Scratch Course
 
 ---
 
-## Introduction
-
 **From Scratch** is an introduction course for Orchestra Platform 3.
 
 ## Table of Content
