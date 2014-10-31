@@ -17,6 +17,8 @@ I would highly recommend watching [Laravel 5 From Scratch](https://laracasts.com
 
 ## Instruction
 
+Firstly, run the following command to download Orchestra Platform 3 using Composer:
+
 ```bash
 $ composer create-project orchestra/platform patio dev-master --prefer-dist --dev
 ```
@@ -72,8 +74,6 @@ return [
 
 ];
 ```
-
-
 
 ### Using the built in PHP Server
 
