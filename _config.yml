@@ -10,7 +10,7 @@ relative_permalinks: true
 # Setup
 title:            Learn
 tagline:          'Learning Orchestra Platform'
-description:      'Orchestra Platfrom 3.'
+description:      'Orchestra Platform 3.'
 url:              http://learn.orchestraplatform.com
 baseurl:          /
 excerpt_separator: "<!--more-->"
